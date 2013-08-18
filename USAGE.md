@@ -14,14 +14,14 @@
 		3、克隆项目：sudo git clone https://github.com/oucdeveloper/website.git
 		4、生成ssh密钥对，建议将公私钥保存在/root/.ssh/目录下（省去push和pull某些麻烦）
 		   ssh-keygen -C <you@email.address> -t rsa
-                   sudo cp ~/.ssh/id_rsa\* /root/.ssh/
+                   sudo cp ~/.ssh/id_rsa* /root/.ssh/
 		   *以下是我的设置：
 		   ssh-keygen -C 'hikerell@gmail.com' -t rsa
-                   sudo cp ~/.ssh/id_rsa\* /root/.ssh/
+                   sudo cp ~/.ssh/id_rsa* /root/.ssh/
 		5、登录github，上传公钥：
 		   'Account Setting'->'SSH Keys'->'Add SSH key'
-		   *Title填写自己的名字
-		   *Key复制上公钥内容
+		   * Title填写自己的名字
+		   * Key复制上公钥内容
 		6、测试SSH可用性：
 		   ssh -v git@github.com
 		   若没有Error信息即已可用

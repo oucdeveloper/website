@@ -42,10 +42,11 @@
 		每次准备在本地更新源码时请先PULL同步一下
 		sudo git pull --rebase origin master
 
-* 什么时候PULL和PUSH？
-		更改了项目的结构（包括文件、目录），就应该尽快PUSH推送更新
-		每次开始工作前都应该同步一下，以免自己的修改和别人冲突或者别人做了结构性的调整和自己的修改不协调了
+什么时候PULL和PUSH？
+--------------------
+		* 更改了项目的结构（包括文件、目录），就应该尽快PUSH推送更新
+		* 每次开始工作前都应该同步一下，以免自己的修改和别人冲突或者别人做了结构性的调整和自己的修改不协调了
 
-* 相关阅读
-		《Github使用指南》(https://github.com/yfwz100/neuola/wiki/github%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97)
-		《github快速使用指南—git学习笔记》(http://www.36ria.com/4742)
+### 相关阅读
+>《Github使用指南》(https://github.com/yfwz100/neuola/wiki/github%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97)
+>《github快速使用指南—git学习笔记》(http://www.36ria.com/4742)

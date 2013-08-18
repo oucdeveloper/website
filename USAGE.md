@@ -8,14 +8,14 @@
 		2、设置项目开发者标识信息：
 		   sudo git config --global user.name <Your Name>
 		   sudo git config --global user.email <you@email.address>
-		   *以下是我的设置：
+		   * 以下是我的设置：
 		   sudo git config --global user.name "Shangcong Luan"
 		   sudo git config --global user.email hikerell@gmail.com
 		3、克隆项目：sudo git clone https://github.com/oucdeveloper/website.git
 		4、生成ssh密钥对，建议将公私钥保存在/root/.ssh/目录下（省去push和pull某些麻烦）
 		   ssh-keygen -C <you@email.address> -t rsa
                    sudo cp ~/.ssh/id_rsa* /root/.ssh/
-		   *以下是我的设置：
+		   * 以下是我的设置：
 		   ssh-keygen -C 'hikerell@gmail.com' -t rsa
                    sudo cp ~/.ssh/id_rsa* /root/.ssh/
 		5、登录github，上传公钥：
@@ -44,8 +44,8 @@
 
 什么时候PULL和PUSH？
 --------------------
-		* 更改了项目的结构（包括文件、目录），就应该尽快PUSH推送更新
-		* 每次开始工作前都应该同步一下，以免自己的修改和别人冲突或者别人做了结构性的调整和自己的修改不协调了
+* 更改了项目的结构（包括文件、目录），就应该尽快PUSH推送更新
+* 每次开始工作前都应该同步一下，以免自己的修改和别人冲突或者别人做了结构性的调整和自己的修改不协调了
 
 ### 相关阅读
 >《Github使用指南》(https://github.com/yfwz100/neuola/wiki/github%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97)

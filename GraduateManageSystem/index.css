@@ -1,0 +1,85 @@
+﻿body {
+	width:900px;
+	margin:0 auto;
+	font-size:14px;
+	color:#000;
+}
+a:link,a:hover,a:active,{
+	text-decoration:none;
+	
+}
+a img {
+	border:none;
+}
+
+.left {
+	width:23px;
+	height:600px;
+	background-image:url('images/left.jpg');
+	background-repeat:repeat-y;
+	float:left;
+}
+
+.major {
+	margin:50px 20px 20px 50px;
+}
+.major1 {
+	margin:150px 20px 20px 350px;
+}
+
+.major img {
+	margin-left:100px;
+}
+
+.menu_navcc{width:900px; margin:0 auto;}
+.menu_nav{
+	width:900px;
+	height:48px;
+	background:url(images/nav_bg.gif) repeat-x;
+	float:left;
+	margin-top:0px;
+}
+.menu_nav .nav_content{padding-left:25px;background:url(images/nav_l_bg.gif) no-repeat;float:left;}
+.menu_nav .nav_content li{width:85px;height:48px;padding-left:15px;padding-right:13px;background:url(images/nav_li_right.gif) no-repeat right center;float:left;line-height:48px;text-align:center;font-size:14px;font-weight:bold;}
+.menu_nav .nav_content li a{color:#fff;width:85px;height:48px;display:block;}
+.menu_nav .nav_content li.current{line-height:37px;}
+.menu_nav .nav_content li em{background:url(images/bid_new.gif) no-repeat;width:35px;height:21px;display:inline-block;position:absolute;top:-20px;left:40px;}
+
+.menu_nav .nav_content li.current a,.menu_nav .nav_content li a:hover{width:88px;height:37px;background:url(images/nav_li_current.gif) no-repeat;display:block;color:#fff;}
+.menu_nav .nav_content li a:hover{background:url(images/nav_li_hover.gif) no-repeat;line-height:37px;text-decoration:none;}
+
+.menu_nav_right{padding-right:20px;background:url(images/nav_r_bg.gif) no-repeat right top;float:right;margin-left:50px;padding-top:13px;height:23px;padding-bottom:12px;}
+p{
+margin-bottom:15px}
+*{padding:0px;margin:0px;}
+* li{list-style:none;}
+a{text-decoration:none;color:#20537A;}
+a:hover{text-decoration:underline;}
+
+.clearfix:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    clear: both;
+}
+.clearfix {
+    _zoom: 1;
+}
+*+html .clearfix {
+	overflow:auto;
+}
+.guid{
+	width:700px;
+	height:30px;
+	}
+.guid ul {
+	height:30px;
+	line-height:30px;
+}
+.guid ul li {
+	font-size:13px;
+	text-align:center;
+	height:30px;
+	float:left;
+	margin-left:5px;
+}

@@ -1,0 +1,110 @@
+.left1 {
+	width:23px;
+	height:2880px;
+	background-image:url(../../images/left.jpg);
+	background-repeat:repeat-y;
+	float:left;
+}
+.top {
+	height:226px;
+	width:870px;
+	border:2px #60F solid;
+	margin-top:60px;
+	margin-left:25px;
+}
+.top1{
+	font-size:16px;
+	width:600px;
+	float:left;
+	margin-top:30px;}
+.top2{
+	float:right;
+	}
+.images{
+	width:880px;
+	height:70px;
+	margin-left:15px;
+	padding-left:10px;
+	}	
+.introduce{
+	margin-top:-20px;
+	height:226px;
+	width:870px;
+	border:2px #60F solid;
+	margin-left:25px;}
+.introduce p{
+	padding-left:20px;
+	padding-right:15px;
+	line-height:30px;
+	font-size:16px;
+	}	
+	
+#content {
+	font-size:16px;
+	width:870px;
+	height:300px;
+	background:#fff;
+	border:2px #60F solid;
+	margin-left:25px;
+	margin-top:-20px;
+	padding-top:15px;
+}
+#content ul {
+	margin-left:20px;
+	margin-top:10px;
+	line-height:180%;
+	color: #000;
+}
+#content ul li {
+	padding-left:15px;
+}
+.goles {
+	font-size:17px;
+	height:1900px;
+	width:870px;
+	border:2px #60F solid;
+	margin-top:-12px;
+	margin-left:25px;
+}
+.goles .first{
+	height:650px;
+	width:850px;
+
+	margin-left:10px;
+	margin-top:30px;
+	}
+.goles .first .first1{
+	width:500px;
+	padding-left:10px;
+	height:600px;
+	float:left;}
+.goles .first .first1 ul li{
+		line-height:30px;
+		}
+.goles .first .first2{
+	float:right;
+	width:323px;
+	}
+.goles .second{
+	height:100px;
+	width:850px;
+
+	margin-left:10px;
+	margin-top:10px;
+	}	
+#content1 ul {
+	margin-left:20px;
+	margin-top:10px;
+	line-height:180%;
+	color: #000;
+}
+#content1 ul li {
+	padding-left:15px;
+}	
+.goles .third{
+	height:800px;
+	width:850px;
+	font-family:"Times New Roman", Times, serif;
+	margin-left:10px;
+	margin-top:10px;
+	}	

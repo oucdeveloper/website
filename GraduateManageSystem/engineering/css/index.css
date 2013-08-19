@@ -1,0 +1,36 @@
+﻿.menu {
+	margin-left:200px;
+}
+
+.menu img {
+	cursor:pointer;
+}
+.menu1 {
+	margin-left:20px;
+	width:850px;
+	height:900px;
+	margin-top:50px;
+}
+.menu1 .add{
+	height:100px;
+	border:1px #000 solid;
+	margin-left:20px;
+	}
+.menu1 .delete{
+	height:100px;
+	margin-top:20px;
+	border:1px #000 solid;
+	margin-left:20px;
+	}
+
+.majorlink {
+	border:4px #FFCC00 solid;
+	width:400px;
+	margin-left:100px;
+	font-weight:bold;
+	color:#990099
+}
+
+.majorlink p {
+	margin:10px 10px 10px 10px;
+}
